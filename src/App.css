@@ -1,0 +1,12 @@
+*{
+  padding: 0;
+  box-sizing: 0;
+  margin: 0;
+  
+}
+body{
+  background-image: linear-gradient(90deg,black,black,rgb(36, 36, 36));
+  margin: 0;
+  width: 100%;
+  
+}

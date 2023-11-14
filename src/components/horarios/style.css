@@ -1,0 +1,61 @@
+.containerHora{
+    background-color: rgba(0, 0, 0, 0.082);
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    align-items: center;
+    
+    
+}
+
+
+.containerHora h2{
+
+    color: aliceblue;
+}
+.containerHora p {
+    color: aliceblue;
+}
+.containerHora span{
+    color: gold;
+    
+}
+.containerHora .valores{
+    color: #2bff00;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.container-horarios{
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    border-radius:  0 50px 0 0px;
+    border: 3px solid rgb(53, 53, 53);
+}
+.container-horarios:hover{
+    background-color: #161616;
+    border-radius: 0;
+    transition: 500ms linear;
+    box-shadow: 13px 14px 100px -11px rgba(255, 255, 255, 0.88);
+-webkit-box-shadow: 13px 14px 100px -11px rgba(255, 255, 255, 0.88);
+-moz-box-shadow: 13px 14px 100px -11px rgba(255, 255, 255, 0.88);
+}
+@media (max-width:100px){
+    .containerHora{
+        text-align: center;
+        flex-direction: column;
+    }
+}
+@media (max-width:400px){
+    .container-horarios{
+        height: 90px;
+        font-size: 10px;
+    }
+    .containerHora .valores{
+        position: relative;
+        font-size: 20px;
+    }
+}

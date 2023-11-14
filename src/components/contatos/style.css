@@ -1,0 +1,27 @@
+.contato{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    padding-top: 100px;
+}
+
+.icons img{
+    width: 5vw;
+    padding-left: 50px;
+}
+.icons img:hover{
+  width: 6vw;
+  
+}
+.contato h3{
+  color: aliceblue;
+  font-size: 30px;
+  width: 150px;
+}
+@media (max-width: 700px){
+  .icons img{
+    width: 10vw;
+    padding-left: 10px;
+  }
+}

@@ -1,0 +1,60 @@
+.taekwondoContainer {
+    position: relative;
+    width: 100%;
+  }
+  
+  .taekwondo {
+    width: 100%;
+  }
+  
+  .horariosContainer {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 80%;
+    background-color: rgba(85, 85, 85, 0.342);
+    box-shadow: -5px -10px 30px #900, 6px 9px 15px rgb(0, 56, 238);
+-webkit-box-shadow: -5px -10px 30px #900, 6px 9px 15px rgb(0, 38, 209);
+-moz-box-shadow: -5px -10px 30px #900, 6px 9px 15px rgb(3, 0, 153);
+  }
+  .horariosContainer h3{
+color: gold;
+font-size: 5vw;
+  }
+  .horariosContainer p{
+    position: relative;
+    top: 10%;
+    color: aliceblue;
+    font-size: 3.2vw;
+    line-height: 205%;
+  }
+
+  .horariosContainer a{
+   
+   font-size: 1.5vw;
+    
+    bottom: 0;
+    color: gold;    
+    background-color: rgba(0, 0, 0, 0.178);
+    
+  }
+  
+  @media screen and (max-width: 400px){
+    .horariosContainer{
+      width: 80vw;
+    }
+    .horariosContainer a{
+        position: relative;
+      
+        top: 40%;
+    }
+    .horariosContainer h3{
+      font-size: 6vw;
+    }
+    .horariosContainer p{
+      font-size: 4vw;
+    }
+  }

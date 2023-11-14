@@ -1,0 +1,78 @@
+html {
+  scroll-behavior: smooth;
+  transition: all 1s ease-in-out;
+}
+
+body {
+  transform: translate3d(0, 0, 0);
+}
+.conteudo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  width: 100%;
+  top: 400px;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.452);
+  flex-direction: column;
+}
+.conteudo span{
+  color: red;
+}
+
+.conteudo h1 {
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+  color: rgb(250, 247, 247);
+  line-height: 100px;
+  text-transform: uppercase;
+}
+.conteudo p{
+ color: aliceblue;
+
+} 
+
+.conteudo p {
+  position: relative;
+  color: aliceblue;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(229, 255, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .conteudo {
+    top: 350px;
+  }
+
+  .conteudo h1 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .conteudo h1 {
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(250, 247, 247);
+    line-height: 50px;
+    text-transform: uppercase;
+  }
+  
+  .conteudo p {
+    position: relative;
+    
+    text-align: center;
+    font-size: 20px;
+  }
+  
+}
