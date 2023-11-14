@@ -10,7 +10,6 @@ import Localizacao from './components/localizacao/localizacao';
 import MenuTopo from './components/menu/Menu';
 import Taekwondo from './components/taekwondo/taekwondo';
 
-
 function App() {
   return (
     <div className="App">
